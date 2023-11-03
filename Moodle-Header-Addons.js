@@ -5,8 +5,8 @@
 // @description  Adds a direct link to odaorg on the moodle header
 // @author       MyDrift (https://github.com/MyDrift-user/)
 // @match        https://moodle.bbbaden.ch/*
-// @downloadURL  https://github.com/MyDrift-user/EditColumnContent/edit/main/moodle-header-addons.js
-// @updateURL    https://github.com/MyDrift-user/EditColumnContent/edit/main/moodle-header-addons.js
+// @downloadURL  https://github.com/MyDrift-user/EditColumnContent/edit/main/Moodle-Header-Addons.js
+// @updateURL    https://github.com/MyDrift-user/EditColumnContent/edit/main/Moodle-Header-Addons.js
 // @grant        none
 // ==/UserScript==
 
