@@ -1,2 +1,2 @@
 # Moodle-Header-Addons
-Add a header to the Moodle Website that brings you to odaorg
+Adds 2 headers to the Moodle Website that brings you to odaorg and Mahara
