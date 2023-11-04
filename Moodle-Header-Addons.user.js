@@ -33,4 +33,3 @@ function createHeader(name, link) {
 
 createHeader("Mahara", "https://portfolio.bbbaden.ch/");
 createHeader("ÜK", "https://odaorg.ict-bbag.ch/")
-})();
