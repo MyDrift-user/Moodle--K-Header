@@ -5,8 +5,8 @@
 // @description  Adds a direct link to important sites on the Moodle header
 // @author       MyDrift (https://github.com/MyDrift-user/)
 // @match        https://moodle.bbbaden.ch/*
-// @downloadURL  https://github.com/MyDrift-user/EditColumnContent/blob/main/Moodle-Header-Addons.user.js
-// @updateURL    https://github.com/MyDrift-user/EditColumnContent/blob/main/Moodle-Header-Addons.user.js
+// @downloadURL  https://github.com/MyDrift-user/Moodle-Header-Addons/blob/main/Moodle-Header-Addons.user.js
+// @updateURL    https://github.com/MyDrift-user/Moodle-Header-Addons/blob/main/Moodle-Header-Addons.user.js
 // @grant        none
 // ==/UserScript==
 
