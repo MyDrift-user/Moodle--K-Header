@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Moodle Header Addons
 // @namespace    Violentmonkey Scripts
-// @version      1
+// @version      1.0
 // @description  Adds a direct link to important sites on the Moodle header
 // @author       MyDrift (https://github.com/MyDrift-user/)
 // @match        https://moodle.bbbaden.ch/*
