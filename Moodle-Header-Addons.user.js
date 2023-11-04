@@ -5,8 +5,8 @@
 // @author       MyDrift (https://github.com/MyDrift-user/)
 // @version      1.0
 // @match        https://moodle.bbbaden.ch/*
-// @downloadURL  https://github.com/MyDrift-user/Moodle-Header-Addons/raw/main/Moodle-Header-Addons.user.js
-// @updateURL    https://github.com/MyDrift-user/Moodle-Header-Addons/raw/main/Moodle-Header-Addons.user.js
+// @downloadURL  https://github.com/MyDrift-user/Moodle-Header-Addons/repo/raw/main/Moodle-Header-Addons.user.js
+// @updateURL    https://github.com/MyDrift-user/Moodle-Header-Addons/repo/raw/main/Moodle-Header-Addons.user.js
 // @run-at       document-end
 // @grant        none
 // ==/UserScript==
