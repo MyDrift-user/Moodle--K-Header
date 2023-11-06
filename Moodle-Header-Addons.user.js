@@ -5,6 +5,7 @@
 // @author       MyDrift (https://github.com/MyDrift-user/)
 // @version      1.0
 // @match        https://moodle.bbbaden.ch/*
+// @icon         https://github.com/MyDrift-user/Moodle-Header-Addons/raw/main/header-icon.png
 // @downloadURL  https://github.com/MyDrift-user/Moodle-Header-Addons/raw/main/Moodle-Header-Addons.user.js
 // @updateURL    https://github.com/MyDrift-user/Moodle-Header-Addons/raw/main/Moodle-Header-Addons.user.js
 // @run-at       document-end
