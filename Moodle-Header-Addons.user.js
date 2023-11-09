@@ -34,7 +34,7 @@ function createHeader(name, link) {
 
 
 createHeader("Mahara", "https://portfolio.bbbaden.ch/");
-createHeader("ÜK", "https://odaorg.ict-bbag.ch/");
+createHeader("OdaOrg", "https://odaorg.ict-bbag.ch/");
 
 // Get all keys from the storage
 var keys = GM_listValues();
