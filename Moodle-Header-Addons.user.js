@@ -3,13 +3,14 @@
 // @namespace    Moodle Header Addons
 // @description  Adds a direct link to important sites on the Moodle header
 // @author       MyDrift (https://github.com/MyDrift-user/)
-// @version      1.0.2
+// @version      1.0.3
 // @match        https://moodle.bbbaden.ch/*
 // @icon         https://github.com/MyDrift-user/Moodle-Header-Addons/raw/main/header-icon.png
 // @downloadURL  https://github.com/MyDrift-user/Moodle-Header-Addons/raw/main/Moodle-Header-Addons.user.js
 // @updateURL    https://github.com/MyDrift-user/Moodle-Header-Addons/raw/main/Moodle-Header-Addons.user.js
 // @run-at       document-end
-// @grant        none
+// @grant        GM_listValues
+// @grant        GM_getValue
 // ==/UserScript==
 
 function createHeader(name, link) {
