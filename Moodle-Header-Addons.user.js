@@ -3,7 +3,7 @@
 // @namespace    Moodle Header Addons
 // @description  Adds a direct link to important sites on the Moodle header
 // @author       MyDrift (https://github.com/MyDrift-user/)
-// @version      1.0.3
+// @version      1.0.4
 // @match        https://moodle.bbbaden.ch/*
 // @icon         https://github.com/MyDrift-user/Moodle-Header-Addons/raw/main/header-icon.png
 // @downloadURL  https://github.com/MyDrift-user/Moodle-Header-Addons/raw/main/Moodle-Header-Addons.user.js
@@ -36,6 +36,7 @@ function createHeader(name, link) {
 
 createHeader("Mahara", "https://portfolio.bbbaden.ch/");
 createHeader("OdaOrg", "https://odaorg.ict-bbag.ch/");
+createHeader("LearningView", "https://learningview.org/app/#!/");
 
 // Get all keys from the storage
 var keys = GM_listValues();
