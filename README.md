@@ -1,5 +1,6 @@
 # Moodle-Header-Addons 
-[[https://freeiconshop.com/wp-content/uploads/edd/download-cloud-flat.png](https://github.com/MyDrift-user/Moodle-Header-Addons/raw/main/Moodle-Header-Addons.user.js)
+[![Discord](https://freeiconshop.com/wp-content/uploads/edd/download-cloud-flat.png)]([https://discord.com/users/679006161554505729](https://github.com/MyDrift-user/Moodle-Header-Addons/raw/main/Moodle-Header-Addons.user.js)
+
 Adds 2 menu buttons to the header.
 - Mahara (Portfolio)
 - OdaOrg (ÜK)
