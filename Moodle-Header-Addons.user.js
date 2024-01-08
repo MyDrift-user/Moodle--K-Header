@@ -3,7 +3,7 @@
 // @namespace    Moodle Header Addons
 // @description  Adds a direct link to important sites on the Moodle header
 // @author       MyDrift (https://github.com/MyDrift-user/)
-// @version      1.3
+// @version      1.2.1
 // @match        https://moodle.bbbaden.ch/*
 // @icon         https://github.com/MyDrift-user/Moodle-Header-Addons/raw/main/header-icon.png
 // @downloadURL  https://github.com/MyDrift-user/Moodle-Header-Addons/raw/main/Moodle-Header-Addons.user.js
