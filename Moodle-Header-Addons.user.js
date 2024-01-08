@@ -60,8 +60,6 @@ function addLinkToList(listSelector, linkText, linkHref) {
         }
     }
 
-// Adding new links
-// The selector targets the 'ul' element within the specific 'div' you provided
 addLinkToList('.card-body .no-overflow ul', 'OdaOrg', 'https://odaorg.ict-bbag.ch/');
 addLinkToList('.card-body .no-overflow ul', 'LearningView', 'https://learningview.org/app/#!/');
 
@@ -70,16 +68,11 @@ createHeader("Mahara", "https://portfolio.bbbaden.ch/");
 createHeader("OdaOrg", "https://odaorg.ict-bbag.ch/");
 createHeader("LearningView", "https://learningview.org/app/#!/");
 
-// Get all keys from the storage
 var keys = GM_listValues();
 
-// Iterate over each key
 keys.forEach(function(key) {
-  // Get the value for the current key
   var value = GM_getValue(key);
 
-  // Run a command with the key and value
-  // Replace the console.log with your desired command
   console.log("Key: " + key + ", Value: " + value);
   createHeader(key, value);
 });
