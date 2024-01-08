@@ -46,6 +46,11 @@ function createHeader(name, link) {
     }
 }
 
+createHeader("|", "");
+createHeader("Mahara", "https://portfolio.bbbaden.ch/");
+createHeader("OdaOrg", "https://odaorg.ict-bbag.ch/");
+createHeader("LearningView", "https://learningview.org/app/#!/");
+
 function addLinkToList(listSelector, linkText, linkHref) {
         var list = document.querySelector(listSelector);
         if (list) {
@@ -59,11 +64,6 @@ function addLinkToList(listSelector, linkText, linkHref) {
             console.error('List not found:', listSelector);
         }
     }
-
-createHeader("|", "");
-createHeader("Mahara", "https://portfolio.bbbaden.ch/");
-createHeader("OdaOrg", "https://odaorg.ict-bbag.ch/");
-createHeader("LearningView", "https://learningview.org/app/#!/");
 
 addLinkToList('.card-body .no-overflow ul', 'OdaOrg', 'https://odaorg.ict-bbag.ch/');
 addLinkToList('.card-body .no-overflow ul', 'LearningView', 'https://learningview.org/app/#!/');
