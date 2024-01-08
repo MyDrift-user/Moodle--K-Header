@@ -3,7 +3,7 @@
 // @namespace    Moodle Header Addons
 // @description  Adds a direct link to important sites on the Moodle header
 // @author       MyDrift (https://github.com/MyDrift-user/)
-// @version      1.1
+// @version      1.2
 // @match        https://moodle.bbbaden.ch/*
 // @icon         https://github.com/MyDrift-user/Moodle-Header-Addons/raw/main/header-icon.png
 // @downloadURL  https://github.com/MyDrift-user/Moodle-Header-Addons/raw/main/Moodle-Header-Addons.user.js
@@ -19,6 +19,8 @@ function createHeader(name, link) {
         var a = document.createElement('a');
 
         var linkText = document.createTextNode(name);
+        a.className = "nav-link";
+        a.setAttribute('role', 'menuitem');
         a.title = name;
         a.href = link;
         a.appendChild(linkText);
