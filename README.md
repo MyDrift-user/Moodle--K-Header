@@ -2,7 +2,7 @@
 
 ✅ Updated for newest redesign.
 
-installation click [here](https://github.com/MyDrift-user/Moodle-Header-Addons/raw/main/Moodle-Header-Addons.user.js)
+[![Static Badge](https://img.shields.io/badge/Install-Script-green?style=for-the-badge)](https://github.com/MyDrift-user/Moodle-Header-Addons/raw/main/Moodle-Header-Addons.user.js)
 
 Adds 2 menu buttons to the header.
 - Mahara (Portfolio)
