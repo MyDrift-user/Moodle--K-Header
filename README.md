@@ -4,7 +4,7 @@
 
 ✅ Updated for newest redesign.
 
-Adds 2 menu buttons to the header.
+Adds 3 menu buttons to the header.
 - Mahara (Portfolio)
 - OdaOrg (ÜK)
 - LearningView (ÜK)
