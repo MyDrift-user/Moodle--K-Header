@@ -3,7 +3,7 @@
 // @namespace    Moodle Header Addons
 // @description  Adds a direct link to important sites on the Moodle header
 // @author       MyDrift (https://github.com/MyDrift-user/)
-// @version      1.2.1
+// @version      1.2.2
 // @match        https://moodle.bbbaden.ch/*
 // @icon         https://github.com/MyDrift-user/Moodle-Header-Addons/raw/main/header-icon.png
 // @downloadURL  https://github.com/MyDrift-user/Moodle-Header-Addons/raw/main/Moodle-Header-Addons.user.js
@@ -21,9 +21,20 @@ function createHeader(name, link) {
         var linkText = document.createTextNode(name);
         a.className = "nav-link";
         a.setAttribute('role', 'menuitem');
-        a.title = name;
         a.href = link;
+        a.title = name;
         a.appendChild(linkText);
+
+        if (link !== "") {
+            a.href = link;
+        } else {
+            a.addEventListener('click', function(event) {
+                event.preventDefault();
+                event.stopPropagation();
+            });
+          a.style.outline = 'none';
+          a.style.pointerEvents = 'none';
+        }
 
         li.appendChild(a);
 
@@ -54,6 +65,7 @@ function addLinkToList(listSelector, linkText, linkHref) {
 addLinkToList('.card-body .no-overflow ul', 'OdaOrg', 'https://odaorg.ict-bbag.ch/');
 addLinkToList('.card-body .no-overflow ul', 'LearningView', 'https://learningview.org/app/#!/');
 
+createHeader("|", "");
 createHeader("Mahara", "https://portfolio.bbbaden.ch/");
 createHeader("OdaOrg", "https://odaorg.ict-bbag.ch/");
 createHeader("LearningView", "https://learningview.org/app/#!/");
