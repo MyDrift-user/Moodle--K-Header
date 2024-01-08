@@ -1,5 +1,7 @@
 # Moodle-Header-Addons 
 
+❌ Currently not updated for newest redesign.
+
 installation click [here](https://github.com/MyDrift-user/Moodle-Header-Addons/raw/main/Moodle-Header-Addons.user.js)
 
 Adds 2 menu buttons to the header.
