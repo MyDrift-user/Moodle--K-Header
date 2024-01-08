@@ -60,13 +60,13 @@ function addLinkToList(listSelector, linkText, linkHref) {
         }
     }
 
-addLinkToList('.card-body .no-overflow ul', 'OdaOrg', 'https://odaorg.ict-bbag.ch/');
-addLinkToList('.card-body .no-overflow ul', 'LearningView', 'https://learningview.org/app/#!/');
-
 createHeader("|", "");
 createHeader("Mahara", "https://portfolio.bbbaden.ch/");
 createHeader("OdaOrg", "https://odaorg.ict-bbag.ch/");
 createHeader("LearningView", "https://learningview.org/app/#!/");
+
+addLinkToList('.card-body .no-overflow ul', 'OdaOrg', 'https://odaorg.ict-bbag.ch/');
+addLinkToList('.card-body .no-overflow ul', 'LearningView', 'https://learningview.org/app/#!/');
 
 var keys = GM_listValues();
 
