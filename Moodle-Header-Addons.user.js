@@ -26,6 +26,10 @@ function createHeader(name, link) {
         a.title = name;
         a.appendChild(linkText);
 
+        a.addEventListener('contextmenu', function(event) {
+            event.preventDefault();
+        }
+        
         if (link !== "") {
             a.href = link;
         } else {
