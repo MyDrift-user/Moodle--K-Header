@@ -21,6 +21,7 @@ function createHeader(name, link) {
         var linkText = document.createTextNode(name);
         a.className = "nav-link";
         a.setAttribute('role', 'menuitem');
+        a.setAttribute('tabindex', '-1');
         a.href = link;
         a.title = name;
         a.appendChild(linkText);
