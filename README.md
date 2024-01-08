@@ -1,6 +1,6 @@
 # Moodle-Header-Addons 
 
-❌ Currently not updated for newest redesign.
+✅ Updated for newest redesign.
 
 installation click [here](https://github.com/MyDrift-user/Moodle-Header-Addons/raw/main/Moodle-Header-Addons.user.js)
 
