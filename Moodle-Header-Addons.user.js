@@ -112,6 +112,12 @@
                         <input type="text" id="headerLink" name="headerLink"><br><br>
                         <input type="submit" value="Create">
                     </form>
+                    <div>
+                        <p>Choose a template:</p>
+                        <button type="button" class="templateButton" data-name="Mahara" data-link="https://portfolio.bbbaden.ch/">Mahara</button>
+                        <button type="button" class="templateButton" data-name="Odaorg" data-link="https://odaorg.ict-bbag.ch/">Odaorg</button>
+                        <button type="button" class="templateButton" data-name="LearningView" data-link="https://learningview.org/app/#!/">LearningView</button>
+                    </div>
                 </div>
             </div>
         `;
@@ -121,6 +127,19 @@
         closeModalButton.addEventListener('click', hideModal);
 
         document.getElementById('headerCreationForm').addEventListener('submit', handleFormSubmit);
+
+        // Handle template buttons
+        var templateButtons = document.querySelectorAll('.templateButton');
+        templateButtons.forEach(function(button) {
+            button.addEventListener('click', function() {
+                var nameInput = document.getElementById('headerName');
+                var linkInput = document.getElementById('headerLink');
+                var name = button.getAttribute('data-name');
+                var link = button.getAttribute('data-link');
+                nameInput.value = name;
+                linkInput.value = link;
+            });
+        });
     }
 
     function toggleEditMode() {
