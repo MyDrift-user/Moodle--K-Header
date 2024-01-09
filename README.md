@@ -4,16 +4,14 @@
 
 ✅ Updated for newest redesign.
 
-Adds 3 menu buttons to the header.
-- Mahara (Portfolio)
-- OdaOrg (ÜK)
-- LearningView (ÜK)
+Press Alt + Q to enter "Edit Mode" to add, edit or remove header items.
 
-# Custom Headers
-
-In the X you can add your own Buttons with integrated links.
-better tutorial in Work
-
-# Credits
-- The idea of adding Mahara was by some other dude, if i find his rep i will link it as Credits ..
-- https://github.com/black-backdoor | helped by remodeling the code -> cutom header buttons
+Plans:
+* [x] "Edit Mode"
+* [x] Add Items
+* [x] delete items
+* [x] edit items
+* [x] save and reapply
+* [ ] Make Header Items by Moodle deletable & fix editing them
+* [ ] fix "+" added after loading the page
+* [ ] add functionality to easily add "|" as a separator
