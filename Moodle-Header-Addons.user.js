@@ -3,7 +3,7 @@
 // @namespace    HeaderAddons
 // @description  Adds a direct link to important sites on the Moodle header
 // @author       MyDrift (https://github.com/MyDrift-user/)
-// @version      1.2.5
+// @version      1.2.6
 // @match        https://moodle.bbbaden.ch/*
 // @icon         https://github.com/MyDrift-user/Moodle-Header-Addons/raw/main/header-icon.png
 // @downloadURL  https://github.com/MyDrift-user/Moodle-Header-Addons/raw/test/Moodle-Header-Addons.user.js
@@ -185,7 +185,8 @@
 
     function saveConfiguration() {
         const headers = Array.from(document.querySelectorAll(".navbar .nav li a"))
-                             .map(a => ({ name: a.textContent, link: a.href }));
+            .filter(a => a.href !== 'https://moodle.bbbaden.ch/editmode') // Exclude headers with this link
+            .map(a => ({ name: a.textContent, link: a.href }));
         GM_setValue('headers', JSON.stringify(headers));
     }
 
