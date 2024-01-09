@@ -8,7 +8,10 @@ When this branch works as intended it will be merged with the main branch and I 
 [EditColumnContent](https://github.com/MyDrift-user/EditColumnContent)
 
 ### Instructions
-Press Alt + Q to enter "Edit Mode" to add, edit or remove header items.
+* Press Alt + Q to enter or leave "Edit Mode"
+* Click on the red "+" to add Header. Insert name with the prefered link and click on "Create"
+* Rightclick on a Header to delete
+* Leftclick on a Header to edit
 
 ### Plans:
 * [x] "Edit Mode"
@@ -19,3 +22,4 @@ Press Alt + Q to enter "Edit Mode" to add, edit or remove header items.
 * [ ] Make Header Items by Moodle deletable & fix editing them
 * [ ] fix "+" added after loading the page
 * [ ] add functionality to easily add "|" as a separator
+* [ ] Move Headers in "Edit Mode"
