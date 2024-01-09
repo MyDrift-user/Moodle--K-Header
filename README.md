@@ -19,6 +19,6 @@ When this branch works as intended it will be merged with the main branch and I 
 * [x] edit items
 * [x] save and reapply
 * [ ] Make Header Items by Moodle deletable & fix editing them
-* [ ] fix "+" added after loading the page
+* [x] fix "+" added after loading the page
 * [ ] add functionality to easily add "|" as a separator
 * [ ] Move Headers in "Edit Mode"
