@@ -2,6 +2,8 @@
 
 [![Static Badge](https://img.shields.io/badge/Install-Script-green?style=for-the-badge)](https://github.com/MyDrift-user/Moodle-Header-Addons/raw/test/Moodle-Header-Addons.user.js)
 
+This is a test branch where i am currently working on a userfriendlier UI based editor.
+
 ✅ Updated for newest redesign.
 
 Press Alt + Q to enter "Edit Mode" to add, edit or remove header items.
