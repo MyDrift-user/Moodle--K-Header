@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         gui5
-// @namespace    gui5
+// @name         HeaderAddons
+// @namespace    HeaderAddons
 // @description  Adds a direct link to important sites on the Moodle header
 // @author       MyDrift (https://github.com/MyDrift-user/)
-// @version      1.2.4
+// @version      1.2.5
 // @match        https://moodle.bbbaden.ch/*
 // @icon         https://github.com/MyDrift-user/Moodle-Header-Addons/raw/main/header-icon.png
 // @downloadURL  https://github.com/MyDrift-user/Moodle-Header-Addons/raw/test/Moodle-Header-Addons.user.js
