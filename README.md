@@ -22,3 +22,4 @@ When this branch works as intended it will be merged with the main branch and I 
 * [x] fix "+" added after loading the page
 * [ ] add functionality to easily add "|" as a separator
 * [ ] Move Headers in "Edit Mode"
+* [x] Add Template functionality
