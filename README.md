@@ -4,11 +4,13 @@
 
 This is a test branch where i am currently working on a userfriendlier UI based editor.
 When this branch works as intended it will be merged with the main branch and I will work on a similar editor for:
+
 [EditColumnContent](https://github.com/MyDrift-user/EditColumnContent)
 
+### Instructions
 Press Alt + Q to enter "Edit Mode" to add, edit or remove header items.
 
-Plans:
+### Plans:
 * [x] "Edit Mode"
 * [x] Add Items
 * [x] delete items
