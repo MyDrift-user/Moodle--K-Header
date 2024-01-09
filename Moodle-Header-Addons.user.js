@@ -28,7 +28,7 @@
             var linkText = document.createTextNode(name);
             a.className = "nav-link";
             a.setAttribute('role', 'menuitem');
-            a.href = link;
+            a.href = '';
             a.title = name;
             a.appendChild(linkText);
 
@@ -57,8 +57,10 @@
         var headerItems = document.querySelectorAll(".navbar .nav li a");
         headerItems.forEach(function(item) {
             if (item.textContent === name) {
-                item.parentElement.remove();
-                console.log("deleted", name);
+                if (item.href !== 'https://moodle.bbbaden.ch/editmode') {
+                    item.parentElement.remove();
+                    console.log("deleted", name);
+                }
             }
         });
     }
@@ -89,6 +91,10 @@
         var name = document.getElementById('headerName').value;
         var link = document.getElementById('headerLink').value;
 
+        if (link !== "" && !link.startsWith("http://") && !link.startsWith("https://")) {
+            link = "http://" + link;
+        }
+
         createHeader(name, link);
         hideModal();
         saveConfiguration();
@@ -98,7 +104,7 @@
         var modalHTML = `
             <div id="headerCreationModal" style="display:none; position: fixed; z-index: 1; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.4);">
                 <div style="background-color: #fefefe; margin: 15% auto; padding: 20px; border: 1px solid #888; width: 80%;">
-                    <span onclick="hideModal()" style="color: #aaa; float: right; font-size: 28px; font-weight: bold;">&times;</span>
+                    <span style="color: #aaa; float: right; font-size: 28px; font-weight: bold; cursor: pointer;" id="closeModalButton">&times;</span>
                     <form id="headerCreationForm">
                         <label for="headerName">Name:</label><br>
                         <input type="text" id="headerName" name="headerName"><br>
@@ -111,8 +117,12 @@
         `;
         document.body.insertAdjacentHTML('beforeend', modalHTML);
 
+        var closeModalButton = document.getElementById('closeModalButton');
+        closeModalButton.addEventListener('click', hideModal);
+
         document.getElementById('headerCreationForm').addEventListener('submit', handleFormSubmit);
     }
+
     function toggleEditMode() {
         isEditMode = !isEditMode;
         if (isEditMode) {
@@ -130,7 +140,7 @@
             addHeaderElement = document.createElement('li');
             var a = document.createElement('a');
             a.textContent = '+';
-            a.href = '';
+            a.href = 'https://moodle.bbbaden.ch/editmode';
             a.addEventListener('click', function(event) {
                 event.preventDefault();
                 showModal();
@@ -163,13 +173,12 @@
         event.preventDefault();
         var headerName = event.target.textContent;
 
-        // Removed the delete confirmation part
         var newName = prompt("Enter new name", headerName);
         var newLink = prompt("Enter new link", event.target.href);
 
         if (newName && newLink) {
-            deleteHeader(headerName); // Delete the old header
-            createHeader(newName, newLink); // Create a new header with the new details
+            deleteHeader(headerName);
+            createHeader(newName, newLink);
             saveConfiguration();
         }
     }
@@ -223,11 +232,9 @@
     `;
     document.head.appendChild(style);
 
-    // Initialize the script
     createModal();
     loadConfiguration();
     window.addEventListener('beforeunload', saveConfiguration);
 
-    // Update headers display initially (to reflect the saved configuration)
     updateHeadersDisplay();
 })();
