@@ -4,7 +4,8 @@
 
 ✅ Updated for newest redesign.
 
-Image
+![Image](https://github.com/MyDrift-user/Moodle-Header-Addons/blob/main/HeaderV1.2.3.png?raw=true)
+
 
 Adds 3 menu buttons to the header.
 - Mahara (Portfolio)
