@@ -23,6 +23,9 @@ Stay tuned!
 
 # Beta | DOOR (Do on own risk)
 
+DOOR: There is nothing wrong with the beta that could affect your Browser negatively. 
+There are just to many bugs and unfinished features that I'll keep it in open beta for now.
+
 I am currently working on a userfriendlier UI based editor in the test branch.
 When this branch works as intended it will be merged with the main branch and I will work on a similar editor for:
 [EditColumnContent](https://github.com/MyDrift-user/EditColumnContent)
