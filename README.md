@@ -4,6 +4,8 @@
 
 ✅ Updated for newest redesign.
 
+Image
+
 Adds 3 menu buttons to the header.
 - Mahara (Portfolio)
 - OdaOrg (ÜK)
@@ -18,7 +20,7 @@ Stay tuned!
 - The idea of adding Mahara was by some other dude, if i find his rep i will link it as Credits ..
 - [Black-Backdoor](https://github.com/black-backdoor) | helped by remodeling the code -> custom header buttons
 
-## Beta | Moodle-Header-Addons 
+# Beta | DOOR (Do on own risk)
 
 I am currently working on a userfriendlier UI based editor in the test branch.
 When this branch works as intended it will be merged with the main branch and I will work on a similar editor for:
