@@ -20,8 +20,6 @@ Stay tuned!
 
 ### Beta | Moodle-Header-Addons 
 
-[![Static Badge](https://img.shields.io/badge/Install-Script-green?style=for-the-badge)](https://github.com/MyDrift-user/Moodle-Header-Addons/raw/test/Moodle-Header-Addons.user.js)
-
 This is a test branch where i am currently working on a userfriendlier UI based editor.
 When this branch works as intended it will be merged with the main branch and I will work on a similar editor for:
 [EditColumnContent](https://github.com/MyDrift-user/EditColumnContent)
@@ -43,3 +41,5 @@ When this branch works as intended it will be merged with the main branch and I 
 * [ ] add functionality to easily add "|" as a separator
 * [ ] Move Headers in "Edit Mode"
 * [x] Add Template functionality
+
+[![Static Badge](https://img.shields.io/badge/Install-Script-green?style=for-the-badge)](https://github.com/MyDrift-user/Moodle-Header-Addons/raw/test/Moodle-Header-Addons.user.js)
