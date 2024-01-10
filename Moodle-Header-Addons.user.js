@@ -114,6 +114,7 @@
                     </form>
                     <div>
                         <p>Choose a template:</p>
+                        <button type="button" class="templateButton" data-name="|" data-link="">Seperator</button>
                         <button type="button" class="templateButton" data-name="Mahara" data-link="https://portfolio.bbbaden.ch/">Mahara</button>
                         <button type="button" class="templateButton" data-name="Odaorg" data-link="https://odaorg.ict-bbag.ch/">Odaorg</button>
                         <button type="button" class="templateButton" data-name="LearningView" data-link="https://learningview.org/app/#!/">LearningView</button>
