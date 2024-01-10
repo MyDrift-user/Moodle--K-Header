@@ -9,18 +9,18 @@ Adds 3 menu buttons to the header.
 - OdaOrg (ÜK)
 - LearningView (ÜK)
 
-## Custom Headers
+### Custom Headers
 
 I am currently working on a big update for this Userscript that will add functional and visual improvements.
 Stay tuned!
 
-## Credits
+### Credits
 - The idea of adding Mahara was by some other dude, if i find his rep i will link it as Credits ..
 - [Black-Backdoor](https://github.com/black-backdoor) | helped by remodeling the code -> custom header buttons
 
-### Beta | Moodle-Header-Addons 
+## Beta | Moodle-Header-Addons 
 
-This is a test branch where i am currently working on a userfriendlier UI based editor.
+I am currently working on a userfriendlier UI based editor in the test branch.
 When this branch works as intended it will be merged with the main branch and I will work on a similar editor for:
 [EditColumnContent](https://github.com/MyDrift-user/EditColumnContent)
 
