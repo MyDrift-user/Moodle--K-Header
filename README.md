@@ -24,7 +24,7 @@ Stay tuned!
 # Beta | DOOR (Do on own risk)
 
 DOOR: There is nothing wrong with the beta that could affect your Browser negatively. 
-There are just to many bugs and unfinished features that I'll keep it in open beta for now.
+There are just to many unfinished features that I'll keep it in open beta for now.
 
 I am currently working on a userfriendlier UI based editor in the test branch.
 When this branch works as intended it will be merged with the main branch and I will work on a similar editor for:
@@ -39,13 +39,16 @@ When this branch works as intended it will be merged with the main branch and I 
 #### Plans:
 * [x] "Edit Mode"
 * [x] Add Items
-* [x] delete items
-* [x] edit items
-* [x] save and reapply
-* [ ] Make Header Items by Moodle deletable & fix editing them
-* [x] fix "+" added after loading the page
-* [ ] add functionality to easily add "|" as a separator
-* [ ] Move Headers in "Edit Mode"
+* [x] Delete items
+* [x] Edit items
+* [x] Save and reapply
+* [ ] Make Header Items by Moodle deletable
+* [ ] Add functionality to easily add "|" as a separator
 * [x] Add Template functionality
+* [ ] Drag'n drop Headers in "Edit Mode"
+
+#### To-Do
+* [x] Fix "+" added after loading the page
+* [ ] overhaul Header edits
 
 [![Static Badge](https://img.shields.io/badge/Install-Script-green?style=for-the-badge)](https://github.com/MyDrift-user/Moodle-Header-Addons/raw/test/Moodle-Header-Addons.user.js)
