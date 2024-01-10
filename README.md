@@ -42,10 +42,12 @@ When this branch works as intended it will be merged with the main branch and I 
 * [x] Delete items
 * [x] Edit items
 * [x] Save and reapply
+* [x] Add Template functionality
 * [ ] Make Header Items by Moodle deletable
 * [ ] Add functionality to easily add "|" as a separator
-* [x] Add Template functionality
 * [ ] Drag'n drop Headers in "Edit Mode"
+* [ ] Edit Logo
+* [ ] Use Image instead of Header Text
 
 #### To-Do
 * [x] Fix "+" added after loading the page
