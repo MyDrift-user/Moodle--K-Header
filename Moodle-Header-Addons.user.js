@@ -43,6 +43,12 @@
                 a.style.pointerEvents = 'none';
             }
 
+            if (isEditMode) {
+                    a.classList.add('editable'); // Apply 'editable' class for new headers in edit mode
+                    a.addEventListener('click', deleteHeaderOnClick);
+                    a.addEventListener('contextmenu', handleRightClick);
+            }
+
             li.appendChild(a);
 
             document.querySelector(".navbar .nav").appendChild(li);
@@ -223,10 +229,14 @@
         Array.from(document.querySelectorAll(".navbar .nav li a")).forEach(a => {
             if (isEditMode) {
                 a.classList.add('editable');
+                a.removeEventListener('click', deleteHeaderOnClick); // Avoid duplicating listeners
                 a.addEventListener('click', deleteHeaderOnClick);
+                a.removeEventListener('contextmenu', handleRightClick); // Avoid duplicating listeners
+                a.addEventListener('contextmenu', handleRightClick);
             } else {
                 a.classList.remove('editable');
                 a.removeEventListener('click', deleteHeaderOnClick);
+                a.removeEventListener('contextmenu', handleRightClick);
             }
         });
     }
