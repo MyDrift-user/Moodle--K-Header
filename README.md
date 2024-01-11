@@ -21,10 +21,7 @@ Stay tuned!
 - The idea of adding Mahara was by some other dude, if i find his rep i will link it as Credits ..
 - [Black-Backdoor](https://github.com/black-backdoor) | helped by remodeling the code -> custom header buttons
 
-# Beta | DOOR (Do on own risk)
-
-DOOR: There is nothing wrong with the beta that could affect your Browser negatively. 
-There are just to many unfinished features that I'll keep it in open beta for now.
+# Beta | Userfriendly Editing
 
 I am currently working on a userfriendlier UI based editor in the test branch.
 When this branch works as intended it will be merged with the main branch and I will work on a similar editor for:
