@@ -28,7 +28,7 @@
             var linkText = document.createTextNode(name);
             a.className = "nav-link";
             a.setAttribute('role', 'menuitem');
-            a.href = '';
+            a.href = 'javascript:void(0);';
             a.title = name;
             a.appendChild(linkText);
 
