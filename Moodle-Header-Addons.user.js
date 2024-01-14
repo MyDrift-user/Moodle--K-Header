@@ -3,15 +3,12 @@
 // @namespace    HeaderAddons
 // @description  Adds a direct link to important sites on the Moodle header
 // @author       MyDrift (https://github.com/MyDrift-user/)
-// @version      1.2.7
+// @version      1.2.8
 // @match        https://moodle.bbbaden.ch/*
 // @icon         https://github.com/MyDrift-user/Moodle-Header-Addons/raw/main/header-icon.png
 // @downloadURL  https://github.com/MyDrift-user/Moodle-Header-Addons/raw/test/Moodle-Header-Addons.user.js
 // @updateURL    https://github.com/MyDrift-user/Moodle-Header-Addons/raw/test/Moodle-Header-Addons.user.js
 // @run-at       document-end
-// @grant        GM_listValues
-// @grant        GM_getValue
-// @grant        GM_setValue
 // ==/UserScript==
 
 (function() {
@@ -211,13 +208,13 @@
 
     function saveConfiguration() {
         const headers = Array.from(document.querySelectorAll(".navbar .nav li a"))
-            .filter(a => a.href !== 'https://moodle.bbbaden.ch/editmode') // Exclude headers with this link
+            .filter(a => a.href !== 'https://moodle.bbbaden.ch/editmode')
             .map(a => ({ name: a.textContent, link: a.href }));
-        GM_setValue('headers', JSON.stringify(headers));
+        localStorage.setItem('headers', JSON.stringify(headers));
     }
 
     function loadConfiguration() {
-        const headers = JSON.parse(GM_getValue('headers', '[]'));
+        const headers = JSON.parse(localStorage.getItem('headers') || '[]');
         headers.forEach(header => {
             if (!isHeaderAdded(header.name)) {
                 createHeader(header.name, header.link);
@@ -229,9 +226,9 @@
         Array.from(document.querySelectorAll(".navbar .nav li a")).forEach(a => {
             if (isEditMode) {
                 a.classList.add('editable');
-                a.removeEventListener('click', deleteHeaderOnClick); // Avoid duplicating listeners
+                a.removeEventListener('click', deleteHeaderOnClick);
                 a.addEventListener('click', deleteHeaderOnClick);
-                a.removeEventListener('contextmenu', handleRightClick); // Avoid duplicating listeners
+                a.removeEventListener('contextmenu', handleRightClick);
                 a.addEventListener('contextmenu', handleRightClick);
             } else {
                 a.classList.remove('editable');
