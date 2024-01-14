@@ -29,9 +29,14 @@
             a.title = name;
             a.appendChild(linkText);
 
-            if (link !== "") {
+            if (link == "https://moodle.bbbaden.ch/") {
+                link = ""
+            }
+
+            if (link !== "" || link !== "javascript:void(0);") {
                 a.href = link;
             } else {
+                link = ""
                 a.addEventListener('click', function(event) {
                     event.preventDefault();
                     event.stopPropagation();
@@ -39,7 +44,7 @@
                 a.style.outline = 'none';
                 a.style.pointerEvents = 'none';
             }
-
+            
             if (isEditMode) {
                     a.classList.add('editable'); // Apply 'editable' class for new headers in edit mode
                     a.addEventListener('click', deleteHeaderOnClick);
