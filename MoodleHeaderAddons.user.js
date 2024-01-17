@@ -5,9 +5,9 @@
 // @author       MyDrift (https://github.com/MyDrift-user/)
 // @version      1.2.3
 // @match        https://moodle.bbbaden.ch/*
-// @icon         https://github.com/MyDrift-user/Moodle-Header-Addons/raw/main/header-icon.png
-// @downloadURL  https://github.com/MyDrift-user/Moodle-Header-Addons/raw/main/Moodle-Header-Addons.user.js
-// @updateURL    https://github.com/MyDrift-user/Moodle-Header-Addons/raw/main/Moodle-Header-Addons.user.js
+// @icon         https://github.com/MyDrift-user/MoodleHeaderAddons/raw/main/header-icon.png
+// @downloadURL  https://github.com/MyDrift-user/MoodleHeaderAddons/raw/main/MoodleHeaderAddons.user.js
+// @updateURL    https://github.com/MyDrift-user/MoodleHeaderAddons/raw/main/MoodleHeaderAddons.user.js
 // @run-at       document-end
 // @grant        GM_listValues
 // @grant        GM_getValue
