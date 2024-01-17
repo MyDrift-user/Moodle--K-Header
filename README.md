@@ -52,4 +52,4 @@ When this branch works as intended it will be merged with the main branch and I 
 * [ ] overhaul Header edits
 * [ ] after creation of a header item i need to reload the page to be able to edit/ delete it
 
-[![Static Badge](https://img.shields.io/badge/Install-Script-green?style=for-the-badge)](https://github.com/MyDrift-user/Moodle-Header-Addons/raw/test/Moodle-Header-Addons.user.js)
+[![Static Badge](https://img.shields.io/badge/Install-Script-green?style=for-the-badge)](https://github.com/MyDrift-user/MoodleHeaderAddons/raw/test/MoodleHeaderAddons.user.js)
