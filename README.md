@@ -1,4 +1,4 @@
-## Beta | Moodle-Header-Addons 
+## Beta | MoodleHeaderAddons 
 
 [![Static Badge](https://img.shields.io/badge/Install-Script-green?style=for-the-badge)](https://github.com/MyDrift-user/MoodleHeaderAddons/raw/test/MoodleHeaderAddons.user.js)
 
